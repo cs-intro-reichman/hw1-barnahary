@@ -9,9 +9,9 @@ public class TimeFormat {
 			if ( hours > 12 ) {
 			hours = hours - 12;
 			}
-			System.out.println(String.format("%02d:%02d PM", hours, minutes));
+			System.out.println(String.format("%2d:%02d PM", hours, minutes));
 		} else {
-			System.out.println(String.format("%02d:%02d AM", hours, minutes));
+			System.out.println(String.format("%2d:%02d AM", hours, minutes));
 	} 
 	}
 }
