@@ -8,6 +8,6 @@ public class FVCalc {
 		double result = Math.pow(outcome, years);
 		double total = deposit * result;
 		int roundedTotal = (int) Math.round(total);
-		System.out.println(" After " + years + " years, a " + deposit + "$ saved at " + ratePresentage + "% will yield " + roundedTotal + "$");
+		System.out.println(" After " + years + " years, a $" + deposit + " saved at " + ratePresentage + "% will yield $" + roundedTotal );
 	}
 }
